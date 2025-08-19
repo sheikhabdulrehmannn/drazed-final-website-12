@@ -11,12 +11,12 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({
   title,
   children,
-  className = "",
+  className = "bg-white/90 backdrop-blur-sm",
   image,
   imageAlt = ""
 }) => {
   return (
-    <div className={`bg-gray-300 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 ${className}`}>
+    <div className={`rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 ${className}`}>
       {image && (
         <div className="aspect-video overflow-hidden">
           <img

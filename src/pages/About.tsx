@@ -26,7 +26,7 @@ const About = () => {
 
       {/* A Message from Our Chairman */}
       <section 
-        className="section-padding bg-gray-300"
+        className="section-padding bg-gray-300-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -61,7 +61,7 @@ const About = () => {
 
       {/* Vision & Mission */}
       <section 
-        className="section-padding bg-gray-200"
+        className="section-padding bg-gray-200-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -123,7 +123,7 @@ const About = () => {
 
       {/* Why Choose Us */}
       <section 
-        className="section-padding bg-gray-300"
+        className="section-padding bg-gray-300-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 scale-in">
@@ -159,7 +159,7 @@ const About = () => {
 
       {/* Call to Action */}
       <section 
-        className="section-padding bg-gray-200"
+        className="section-padding bg-gray-200-with-image"
       >
         <div className="container mx-auto px-4 text-center">
           <div className="scale-in max-w-3xl mx-auto">

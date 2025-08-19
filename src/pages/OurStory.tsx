@@ -58,6 +58,7 @@ const OurStory = () => {
 
       {/* Company Origins */}
       <section className="section-padding bg-gray-300">
+        className="section-padding bg-gray-300-with-image">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="slide-in-left">
@@ -89,6 +90,7 @@ const OurStory = () => {
 
       {/* Growth Timeline */}
       <section className="section-padding bg-gray-200">
+        className="section-padding bg-gray-200-with-image">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 scale-in">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -141,6 +143,7 @@ const OurStory = () => {
 
       {/* Today's Presence */}
       <section className="section-padding bg-gray-300">
+        className="section-padding bg-gray-300-with-image">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 scale-in">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">

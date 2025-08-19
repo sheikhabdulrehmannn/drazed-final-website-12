@@ -59,7 +59,7 @@ const Manufacturing = () => {
 
       {/* Manufacturing Process Grid */}
       <section 
-        className="section-padding bg-white"
+        className="section-padding bg-white-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

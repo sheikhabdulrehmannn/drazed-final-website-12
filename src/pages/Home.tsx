@@ -42,7 +42,7 @@ const Home = () => {
 
       {/* Company Overview */}
       <section 
-        className="section-padding bg-gray-300"
+        className="section-padding bg-gray-300-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="text-center max-w-5xl mx-auto fade-in-up">
@@ -62,7 +62,7 @@ const Home = () => {
 
       {/* Why Choose Us */}
       <section 
-        className="section-padding bg-gray-200"
+        className="section-padding bg-gray-200-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 fade-in-up">
@@ -107,7 +107,7 @@ const Home = () => {
 
       {/* Product Categories */}
       <section 
-        className="section-padding bg-gray-300"
+        className="section-padding bg-gray-300-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 fade-in-up">
@@ -195,7 +195,7 @@ const Home = () => {
 
       {/* Industries We Serve */}
       <section 
-        className="section-padding bg-gray-200"
+        className="section-padding bg-gray-200-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 fade-in-up">
@@ -284,7 +284,7 @@ const Home = () => {
 
       {/* Commitment to Quality */}
       <section 
-        className="section-padding bg-gray-300"
+        className="section-padding bg-gray-300-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">

@@ -93,6 +93,7 @@ const Capabilities = () => {
 
       {/* Overview */}
       <section className="section-padding bg-white">
+        className="section-padding bg-white-with-image">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="slide-in-left">
@@ -157,6 +158,7 @@ const Capabilities = () => {
 
       {/* Why Choose Millat */}
       <section className="section-padding bg-white">
+        className="section-padding bg-white-with-image">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 scale-in">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">

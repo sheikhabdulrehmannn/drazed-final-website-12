@@ -79,7 +79,7 @@ const Certifications = () => {
 
       {/* Certifications Grid */}
       <section 
-        className="section-padding bg-white"
+        className="section-padding bg-white-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -104,7 +104,7 @@ const Certifications = () => {
 
       {/* Quote Section */}
       <section 
-        className="section-padding bg-light"
+        className="section-padding bg-gray-300-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto scale-in">

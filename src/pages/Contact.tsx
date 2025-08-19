@@ -52,7 +52,7 @@ const Contact = () => {
 
       {/* Main Content */}
       <section 
-        className="section-padding bg-gray-300"
+        className="section-padding bg-gray-300-with-image"
       >
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">

@@ -93,6 +93,7 @@ const AchievementsAwards = () => {
 
       {/* Recognition Overview */}
       <section className="section-padding bg-white">
+        className="section-padding bg-white-with-image">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto scale-in">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -145,6 +146,7 @@ const AchievementsAwards = () => {
 
       {/* Milestone Achievements Timeline */}
       <section className="section-padding bg-white">
+        className="section-padding bg-white-with-image">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 scale-in">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
