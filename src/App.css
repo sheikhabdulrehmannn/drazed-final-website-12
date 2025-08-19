@@ -1,32 +1,6 @@
-  background-color: rgba(255, 255, 255, 0.95);
-  background-image: url('https://i.postimg.cc/htvsSRnZ/Screenshot-2025-06-18-141446.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-.bg-gray-300-with-image {
-  background-color: rgba(229, 231, 235, 0.95);
-  background-image: url('https://i.postimg.cc/htvsSRnZ/Screenshot-2025-06-18-141446.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.bg-gray-200-with-image {
-  background-color: rgba(229, 231, 235, 0.9);
-  background-image: url('https://i.postimg.cc/htvsSRnZ/Screenshot-2025-06-18-141446.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-  background-image: url('https://i.postimg.cc/htvsSRnZ/Screenshot-2025-06-18-141446.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
-
+/* Root Variables */
 :root { 
   --millat-teal: #1e3a8a; 
   --millat-teal-hsl: hsl(220, 70%, 32%); 
@@ -34,6 +8,36 @@
   --graphite-gray: #2C2C2C; 
   --white: #e5e7eb; 
   --light-gray-smoke: #F6F7F9; 
-  background-color: #e5e7eb;
-.bg-white-with-image {
   --border-light: #E5E7EB; 
+  background-color: #e5e7eb;
+}
+
+/* Background Utility Classes with Image Overlay */
+.bg-gray-300-with-image {
+  background-color: rgba(229, 231, 235, 0.95); /* Tailwind gray-300 with opacity */
+  background-image: url('https://i.postimg.cc/htvsSRnZ/Screenshot-2025-06-18-141446.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-gray-200-with-image {
+  background-color: rgba(229, 231, 235, 0.9); /* Tailwind gray-200 with opacity */
+  background-image: url('https://i.postimg.cc/htvsSRnZ/Screenshot-2025-06-18-141446.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-white-with-image {
+  background-color: rgba(255, 255, 255, 0.95); /* White overlay */
+  background-image: url('https://i.postimg.cc/htvsSRnZ/Screenshot-2025-06-18-141446.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+}
