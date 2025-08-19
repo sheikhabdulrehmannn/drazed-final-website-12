@@ -70,8 +70,7 @@ const Compliance = () => {
       />
 
       {/* Overview */}
-      <section className="section-padding bg-gray-300">
-        className="section-padding bg-gray-300-with-image">
+      <section className="section-padding bg-gray-300 bg-gray-300-with-image">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto scale-in">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -150,8 +149,7 @@ const Compliance = () => {
       </section>
 
       {/* Certifications Showcase */}
-      <section className="section-padding bg-gray-300">
-        className="section-padding bg-gray-300-with-image">
+      <section className="section-padding bg-gray-300 bg-gray-300-with-image">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 scale-in">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
